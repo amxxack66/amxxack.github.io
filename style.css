@@ -1,0 +1,94 @@
+/* A very simple CSS file for styling my simple website. */
+   
+html {
+	padding: 25px;
+  	margin: auto;
+}
+
+@font-face {
+	font-family: "JetBrains Mono";
+	src: url(https://fonts.googleapis.com/css?family=JetBrains+Mono);
+}
+
+body {
+	background-image: linear-gradient( rgba(39, 42, 52, 0.75), rgba(39, 42, 52, 0.75) ), url(img/bg.jpg);
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	color: #ffffff;
+  	font-family: "JetBrains Mono"!important; 
+  	font-size: 15px;
+  	text-align: left;
+	justify-content: center;
+}
+
+/* Link */
+a {
+	color: yellow;
+  	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover { 
+	color: red; 
+	text-decoration: underline;
+}
+
+/* IDs */
+#license { cursor: help; }
+
+/* Classes */
+body.amogus {
+  	background-image: linear-gradient( rgba(39, 42, 52, 0.75), rgba(39, 42, 52, 0.75) ), url(https://i.imgflip.com/5364y4.jpg);
+}
+
+pre.title {
+  	font-size: calc(17px + .5vw);
+  	align-items: center;
+  	justify-content: center;
+  	text-align: center;
+  	color: yellow;
+}
+
+.center {
+	text-align: center; 
+	justify-content: center;
+	align-items: center;
+}
+
+.post_title {
+	text-align: center;
+	font-size: 40px;
+	color: yellow;
+}
+
+.bigphoto {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	max-width: 200px;
+  	height: auto;
+}
+
+.logo {
+	display: inline;
+	max-width: 24px;
+	height: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.asciicast {
+    width: 75%;
+    height: 75%;
+}
+
+.sign {
+  	font-size: 12px;
+  	text-align: center;
+}
